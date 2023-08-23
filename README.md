@@ -18,5 +18,32 @@ This repository contains simple client and server programs implemented in C that
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/ClientServerCommunication.git
+   git clone https://github.com/Nar2005ek/ClientServerCommunication.git
    cd ClientServerCommunication
+2. Compile the client and server programs:
+ ```bash
+make
+```
+3. Run the server in one terminal window:
+```
+./bin/server
+```
+4. Run the client in another terminal window:
+```
+./bin/client
+```
+## Files
+- **client.c**: Implements the client-side program that connects to the server, sends commands, and receives responses.
+- __server.c__: Implements the server-side program that listens for client connections, handles incoming connections using threads, and executes shell commands.
+## Makefile
+The Makefile simplifies compilation. It includes the following targets:
+
+****
+- __all__ (default): Compiles both the client and server programs.
+- __client__: Compiles only the client program.
+- __server__: Compiles only the server program.
+- __clean__: Removes compiled binaries and object files.
+
+
+
+
