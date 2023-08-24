@@ -13,7 +13,7 @@ int main() {
     int serverPort = 0;
 
     while(1) {
-        printf("Client> ");r
+        printf("Client> ");
         fgets(buffer, sizeof(buffer), stdin);
         buffer[strlen(buffer) - 1] = '\0';
 
@@ -37,7 +37,7 @@ int main() {
                     } else {
                         printf("Server answer: \n%s", buffer);
                     }
-                
+                }
             } else {
                 printf("Not connected to any server.\n");
             }
