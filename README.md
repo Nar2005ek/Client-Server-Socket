@@ -24,7 +24,7 @@ This repository contains simple client and server programs implemented in C that
 
    ```bash
    git clone https://github.com/Nar2005ek/Client-Server-Socket.git
-   cd ClientServerCommunication
+   cd Client-Server-Socket
 2. Compile the client and server programs:
  ```bash
 make
