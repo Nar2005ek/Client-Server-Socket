@@ -9,6 +9,11 @@ This repository contains simple client and server programs implemented in C that
 - Supports handling multiple clients using threads.
 - Provides a basic command-line interface for the client to interact with the server.
 
+## Requirements
+
+- Compiler version GNU gcc11+
+- OS version MacOs Ventura 13.2
+
 ## Prerequisites
 
 - GCC (GNU Compiler Collection) is required to compile the programs. If you don't have GCC installed, you can download it from [here](https://gcc.gnu.org/).
