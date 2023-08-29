@@ -31,7 +31,8 @@ void* handleUser(void* sockPtr) {
                 perror("popen");
                 strcpy(buffer, "Error: Unable to execute shell command.");
             } else {
-                char answer[bufferSize] = "";
+                char answer[bufferSize];
+                memset(answer, 0, sizeof(answer));
                 char line[bufferSize];
                 size_t count = 0;
                 while(fgets(line, sizeof(line), filePtr) != NULL) {
