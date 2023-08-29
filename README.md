@@ -12,7 +12,7 @@ This repository contains simple client and server programs implemented in C that
 ## Requirements
 
 - Compiler version GNU gcc11+
-- OS version MacOs Ventura 13.2
+- OS version MacOs Ventura 13.2 and Linux Ubuntu 22.04
 
 ## Prerequisites
 
