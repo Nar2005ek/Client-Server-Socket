@@ -4,8 +4,9 @@
 #include <unistd.h>
 #include <signal.h>
 
-const int maxBuffer = 16384;
-char buffer[maxBuffer];
+#define MAX_BUFFER 16384
+
+char buffer[MAX_BUFFER];
 int userSocket = -1;
 int count = 0;
 
